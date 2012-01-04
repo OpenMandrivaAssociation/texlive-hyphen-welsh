@@ -44,12 +44,12 @@ Hyphenation patterns for Welsh in T1/EC and UTF-8 encodings.
 %install
 mkdir -p %{buildroot}%{_texmf_language_dat_d}
 cat > %{buildroot}%{_texmf_language_dat_d}/hyphen-welsh <<EOF
-%% from hyphen-welsh:
+\%\% from hyphen-welsh:
 welsh loadhyph-cy.tex
 EOF
 mkdir -p %{buildroot}%{_texmf_language_def_d}
 cat > %{buildroot}%{_texmf_language_def_d}/hyphen-welsh <<EOF
-%% from hyphen-welsh:
+\%\% from hyphen-welsh:
 \addlanguage{welsh}{loadhyph-cy.tex}{}{2}{3}
 EOF
 mkdir -p %{buildroot}%{_texmf_language_lua_d}
