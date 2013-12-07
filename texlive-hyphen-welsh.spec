@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-hyphen-welsh
 Version:	20120124
-Release:	2
+Release:	3
 Summary:	Welsh hyphenation patterns
 Group:		Publishing
 URL:		http://tug.org/texlive
