@@ -1,6 +1,6 @@
 Name:		texlive-hyphen-welsh
 Version:	58652
-Release:	1
+Release:	2
 Summary:	Welsh hyphenation patterns
 Group:		Publishing
 URL:		http://tug.org/texlive
